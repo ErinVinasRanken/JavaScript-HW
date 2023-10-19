@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Drive-Through</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="js/hw.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Fast Food Drive-Through</h1>
+
+        <form id="orderForm">
+            <div class="form-group">
+                <label for="burgers">Number of Burgers:</label>
+                <input type="number" id="burgers" class="form-control" value="0">
+            </div>
+            <div class="form-group">
+                <label for="fries">Number of Fries:</label>
+                <input type="number" id="fries" class="form-control" value="0">
+            </div>
+            <div class="form-group">
+                <label for="sodas">Number of Sodas:</label>
+                <input type="number" id="sodas" class="form-control" value="0">
+            </div>
+            <button type="button" id="btnClick" class="btn btn-primary">Calculate Total</button>
+        </form>
+
+        <div id="totalCost" class="mt-4"></div>
+    </div>
+    
+</body>
+</html>
